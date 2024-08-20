@@ -1,30 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <style>
-  .weather-widget-container {
-      background-image: url('3A%2F%2Fimage109.360doc.com%2FDownloadImg%2F2018%2F03%2F2208%2F127921882_16_20180322083206847.gif&refer=http%3A%2F%2Fimage109.360doc.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1726764576&t=b910a0c207ced65c04fdce5c6b1ab349'); /* 替换为您的背景图片路径 */
-      background-size: cover;
-      background-repeat: no-repeat;
-      padding: 20px;
-      overflow: hidden;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>海口天气挂件</title>
 </head>
-<body>
-  <div class="weather-widget-container">
-    <a class="weatherwidget-io" href="https://forecast7.com/zh/20d04110d20/haikou/" data-label_1="HAIKOU" data-label_2="WEATHER" data-font="微软雅黑 (Microsoft Yahei)" data-icons="Climacons Animated" data-days="5" data-theme="candy" data-basecolor="rgba(70, 208, 16, 0)" data-shadow="rgba(8, 9, 9, 0.15)" data-textcolor="#69b9de" data-highcolor="rgba(94, 176, 221, 0.93)" data-lowcolor="#84c4d7" data-mooncolor="#96bec3" data-cloudfill="#86c7d9" data-raincolor="#65bacb" data-snowcolor="#96bacf">HAIKOU WEATHER</a>
-    <script>
-     !function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (!d.getElementById(id)) {
-          js = d.createElement(s);
-          js.id = id;
-          js.src = 'https://weatherwidget.io/js/widget.min.js';
-          fjs.parentNode.insertBefore(js, fjs);
-        }
-      }(document,'script', 'weatherwidget-io-js');
-    </script>
-  </div>
+<body style="margin: 0; padding: 0; overflow: hidden;">
+  <a class="weatherwidget-io" href="https://forecast7.com/zh/20d04110d20/haikou/" data-label_1="海口" data-label_2="月半宵夜趣" data-font="微软雅黑 (Microsoft Yahei)" data-icons="Climacons Animated" data-days="3" data-theme="candy" data-basecolor="rgba(70, 208, 16, 0)" data-shadow="rgba(8, 9, 9, 0.15)" data-textcolor="#69b9de" data-highcolor="rgba(94, 176, 221, 0.93)" data-lowcolor="#84c4d7" data-mooncolor="#96bec3" data-cloudfill="#86c7d9" data-raincolor="#65bacb" data-snowcolor="#96bacf">海口 月半宵夜趣</a>
+  <script>
+   !function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://weatherwidget.io/js/widget.min.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }
+    }(document,'script', 'weatherwidget-io-js');
+  </script>
 </body>
 </html>
